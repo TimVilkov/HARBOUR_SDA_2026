@@ -52,29 +52,24 @@ A reproducible notebook that runs top-to-bottom and includes:
 
 ### 1) Demand mix and seasonality
 How does usage differ between casual and member riders over time?
-- Show how the **share of casual rides** changes across months.
-- Summarize what this suggests about when marketing should be more aggressive vs more selective.
 
 ### 2) “When” to target casual riders
 If you can show membership offers only at specific times, when should you show them?
-- Identify the **time windows** (day of week × hour) where casual rides are most concentrated.
 - Explain how you would translate this into a scheduling strategy for messaging.
 
 ### 3) Trip duration: choosing the right KPI
 You must choose **one primary metric** to describe “ride length” for product decision-making.
-- Compare ride-length distributions for casual vs members.
-- Decide which metric you would report to a PM (e.g., mean, median, p90, something else).
-- Explain why this metric is appropriate for decision-making given the distribution and outliers.
+- Decide which metric you would report to a PM.
+- Explain why this metric is appropriate for decision-making.
 
 ### 4) Segment differences: weekday vs weekend
 How does casual behavior differ from member behavior on weekdays vs weekends?
-- Compare at least two of: ride volume, ride length, trip type (round vs one-way), time-of-day patterns.
 - Provide a business interpretation of the differences you observe.
 
 ### 5) Station targeting: where to place offers
 Where should you focus physical marketing (station ads) or partnerships?
 - Identify high-impact stations for casual riders.
-- Decide whether you prioritize **volume** (where most casual rides happen) or **concentration** (where casual share is unusually high), and justify your choice.
+- Justify your choice.
 
 ### 6) Round trips and user intent
 Round trips can reflect a different use case than one-way trips.
@@ -88,7 +83,7 @@ Design an initiative called **“Accidental Trip Starts Investigation.”**
 
 Your job (EDA-only):
 - Propose **one or more operational definitions** for an “accidental start” using only the available trip-level data (you decide what signals to use).
-- Build **a metric** that quantifies how common this issue is (overall and by key segments).
+- Build **a metric** that quantifies how common this issue is.
 - Estimate the **scale of the issue**: what share of trips it affects and how that varies by customer type, time, bike type, and/or stations.
 - Identify where the issue appears most (e.g., specific stations or time windows) and explain why that might be happening.
 - Recommend **one product or operational action** to address it (e.g., UX change, station maintenance checks, user education) and specify:
@@ -120,7 +115,6 @@ Use plots when they help answer a question. Keep the total number of figures rea
 
 ### 1) Data audit & cleaning decisions — 25
 - timestamps parsed correctly
-- duration computed correctly
 - missingness/duplicates/invalid values addressed transparently
 - outliers handled thoughtfully (not silently removed)
 
@@ -160,3 +154,4 @@ Submit:
 - `HW1_<your_name>_PM_memo.pdf` (or markdown)
 
 Do not include the raw dataset in your submission.
+
