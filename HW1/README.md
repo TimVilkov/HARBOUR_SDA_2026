@@ -1,7 +1,7 @@
 # HW1 — EDA + Descriptive Statistics
 
 ## Dataset download
-**File:** `dataset_extended_HW1.csv`  
+**File:** `dataset_HW1.csv`  
 **Download link:** **[link](https://drive.google.com/file/d/19rEJMLiUm3AHV-KK8oOo27KbfJ7Ov2P0/view?usp=sharing)**
 
 ---
@@ -154,4 +154,5 @@ Submit:
 - `HW1_<your_name>_PM_memo.pdf` (or markdown)
 
 Do not include the raw dataset in your submission.
+
 
