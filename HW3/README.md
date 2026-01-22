@@ -2,7 +2,7 @@
 
 Your task is to analyze an A/B experiment in a mobile game.
 
-Data: **[link](https://drive.google.com/drive/folders/15EUuGKaNJMxlcFVCk6jTdZstLmZLUlml?usp=sharing)]**  
+Data: **[link](https://drive.google.com/drive/folders/15EUuGKaNJMxlcFVCk6jTdZstLmZLUlml?usp=sharing)**  
 Download the CSV files and put them in the same folder as the notebook.
 
 Files:
